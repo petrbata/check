@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8" />
+<title></title>
+</head>
+  <body>
+<img id="tma" src="https://i.ibb.co/M55YpSc/zadnistrana.png" onclick="rozsvit()" style="display:inline-block;">
+<img id="svetlo" src="https://i.ibb.co/d4GpXp3/banan.png" onclick="zhasni()" style="display:none;">
+<script>
+function rozsvit(){
+document.getElementById('tma').style.display="none";
+document.getElementById('svetlo').style.display="inline-block";
+}
+function zhasni(){
+document.getElementById('svetlo').style.display="none";
+document.getElementById('tma').style.display="inline-block";
+}
+</script>
+
+  <!-- Tady začíná ta druhá kartička -->
+  <img id="zadek" src="https://i.ibb.co/M55YpSc/zadnistrana.png" onclick="otocene()" style="display:inline-block;">
+<img id="konev" src="https://i.ibb.co/FXWF7VP/konev.png" onclick="schovane()" style="display:none;">
+<script>
+function otocene(){
+document.getElementById('zadek').style.display="none";
+document.getElementById('konev').style.display="inline-block";
+}
+function schovane(){
+document.getElementById('konev').style.display="none";
+document.getElementById('zadek').style.display="inline-block";
+}
+</script>
+    <!-- Tady začíná treti  kartička -->
+    <img id="zadek3" src="https://i.ibb.co/M55YpSc/zadnistrana.png" onclick="otocene3()" style="display:inline-block;">
+<img id="auto" src="https://i.ibb.co/hHfrJsZ/auto.png" onclick="schovane3()" style="display:none;">
+<script>
+function otocene3(){
+document.getElementById('zadek3').style.display="none";
+document.getElementById('auto').style.display="inline-block";
+}
+function schovane3(){
+document.getElementById('auto').style.display="none";
+document.getElementById('zadek3').style.display="inline-block";
+}
+</script>
+   <!-- Tady začíná ctvrta  kartička -->
+    <img id="zadek4" src="https://i.ibb.co/M55YpSc/zadnistrana.png" onclick="otocene4()" style="display:inline-block;">
+<img id="konev2" src="https://i.ibb.co/FXWF7VP/konev.png" onclick="schovane4()" style="display:none;">
+<script>
+function otocene4(){
+document.getElementById('zadek4').style.display="none";
+document.getElementById('konev2').style.display="inline-block";
+}
+function schovane4(){
+document.getElementById('konev2').style.display="none";
+document.getElementById('zadek4').style.display="inline-block";
+}
+</script>
+    
+    <!-- Tady začíná pata  kartička -->
+    <img id="zadek5" src="https://i.ibb.co/M55YpSc/zadnistrana.png" onclick="otocene5()" style="display:inline-block;">
+<img id="auto2" src="https://i.ibb.co/hHfrJsZ/auto.png" onclick="schovane5()" style="display:none;">
+<script>
+function otocene5(){
+document.getElementById('zadek5').style.display="none";
+document.getElementById('auto2').style.display="inline-block";
+}
+function schovane5(){
+document.getElementById('auto2').style.display="none";
+document.getElementById('zadek5').style.display="inline-block";
+}
+</script>
+    <!-- Tady začíná šestá  kartička -->
+    <img id="zadek6" src="https://i.ibb.co/M55YpSc/zadnistrana.png" onclick="otocene6()" style="display:inline-block;">
+<img id="banan2" src="https://i.ibb.co/d4GpXp3/banan.png" onclick="schovane6()" style="display:none;">
+<script>
+function otocene6(){
+document.getElementById('zadek6').style.display="none";
+document.getElementById('banan2').style.display="inline-block";
+}
+function schovane6(){
+document.getElementById('banan2').style.display="none";
+document.getElementById('zadek6').style.display="inline-block";
+}
+</script>
+</body>
+</html>
